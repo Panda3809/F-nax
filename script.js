@@ -1,7 +1,7 @@
-const faqs = document.querySelectorAll(".faq");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const nav = document.querySelector(".nav");
 
-faqs.forEach(faq => {
-    faq.addEventListener("click", () => {
-        faq.classList.toggle("active");
-    });
+hamburgerMenu.addEventListener("click", () => {
+  nav.classList.toggle(".active");
 });
+
